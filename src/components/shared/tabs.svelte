@@ -21,6 +21,7 @@
     }
     ul {
         display: flex;
+        flex-flow: row wrap;
         justify-content: center;
         padding: 0;
         list-style: none;

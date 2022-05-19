@@ -31,10 +31,18 @@
         font-size: 1.4rem;
         color: #fff;
         cursor: pointer;
+        font-weight: bold;
         font-family: Montserrat, sans-serif;
+        padding: 4px 8px 4px 8px;
     }
-    .active {
+    /* .active {
         color: #f8f40a;
-        padding-bottom: 8px;
+    } */
+    li:hover {
+        background-color: yellow;
+        font-weight: bold;
+        color: black;
+        border-radius: 2px;
+        padding: 4px 8px 4px 8px;
     }
 </style>

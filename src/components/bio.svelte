@@ -2,7 +2,7 @@
 </script>
 
 <div>
-    <img src="./chakradhar.webp" alt="Chakradhar" width="40%" height="40%" />
+    <img src="./chakradhar.webp" alt="Chakradhar" />
     <p>
         Hi I am a devops engineer from <a
             href="https://goo.gl/maps/tybM3TWaP63nhi436">Hyderabad,India</a
@@ -20,9 +20,12 @@
     }
     div {
         display: flex;
+        justify-content: center;
     }
     img {
         padding-right: 2rem;
         margin-top: 16px;
+        height: 40vh;
+        width: auto;
     }
 </style>

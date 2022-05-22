@@ -20,7 +20,9 @@
 	{:else if activeItem === "Skills"}
 		<p>Skills</p>
 	{:else if activeItem === "Resume"}
-		<p>Resume</p>
+		<p>
+			<a href="./sample.pdf" target="_blank">Resume</a>
+		</p>
 	{:else if activeItem === "Contact"}
 		<p>Contact</p>
 	{/if}
